@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DonateFound - seu portal de doações</title>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container" id="nav-container">
+      
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="heart.jpg" alt="hDC Agency"> DonateFound
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+            <a class="nav-item nav-link" id="about-menu" href="#">Informações</a>
+            
+            <a class="nav-item nav-link" id="team-menu" href="#">Doações</a>
+            
+            <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+     
+      <div id="mainSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#mainSlider" data-slide-to="1"></li>
+          <li data-target="#mainSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="covid1.jpg" class="d-block w-100" alt="Covid1">
+
+           
+
+            <div class="carousel-caption d-md-block">
+              <h2>Quer se tornar um Doador?</h5>
+              <p>Entre em contato conosco e venha fazer o bem e ajudar quem precisa.</p>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="covid2.jpg" class="d-block w-100" alt="covid2">
+            <div class="carousel-caption d-md-block">
+              <h2>Seja um Doador hoje mesmo !</h5>
+              <p>O maior portal de doações do rio grande do sul.</p>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="donate.jpeg" class="d-block w-100" alt="covid3">
+            <div class="carousel-caption d-md-block">
+              
+              
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Sobre a empresa -->
+      <div id="about-area">
+        <div class="container">
+            <div class="row">
+              <div class="col-12"> 
+                <h3 class="main-title">Sobre a DonateFound</h3>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="heart.jpg" alt="donatefound">
+              </div>
+              <div class="col-md-6">
+                <h3 class="about-title">A empresa que pensa em ajudar o próximo.</h3>
+                <p>O objetivo da DonateFound é trazer ajuda a famílias que estão sofrendo pelo covid-19.</p>
+                <p>A pandemia não chegou sozinha e muitas familias estão sofrendo pela falta de suprimentos.</p>
+                <p>Recolhemos qualquer tipo de suprimento que possa ser útil nesse momento difícil.</p>
+                <p>Alguns dos nossos patrocinadores:</p>
+                <ul id="about-list">
+                  <li><i class="fas fa-check"></i> Magazine Luiza</li>
+                  <li><i class="fas fa-check"></i> Coca-Cola</li>
+                  <li><i class="fas fa-check"></i> Carrefour</li>
+                  <li><i class="fas fa-check"></i> Casas-Bahia</li>
+                  <li><i class="fas fa-check"></i> Prefeitura de Porto Alegre</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      
+     
+      <!-- Dados da empresa -->
+      <div id="data-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleA"></div>
+              <p>Colaboradores individuais</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleB"></div>
+              <p>Famílias alcançadas</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleC"></div>
+              <p>Colaboradores empresariais</p>
+            </div>  
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleD"></div>
+              <p>Pessoas que receberam auxílio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- doações -->
+      <div id="team-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Alguns locais que visitamos !</h3>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="alimento.jpeg" class="card-img-top" alt="portoalegre">
+                <div class="card-body">
+                  <h5 class="card-title">Porto Alegre</h5>
+                  <p class="card-text">Bom Jesus</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="alimento2.jpg" class="card-img-top" alt="canoas">
+                <div class="card-body">
+                  <h5 class="card-title">Canoas</h5>
+                  <p class="card-text">Fátima</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="alimento3.jpeg" class="card-img-top" alt="alvorada">
+                <div class="card-body">
+                  <h5 class="card-title">Alvorada</h5>
+                  <p class="card-text">Nova Americana</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="alimento4.jpg" class="card-img-top" alt="viamao">
+                <div class="card-body">
+                  <h5 class="card-title">Viamão</h5>
+                  <p class="card-text">Jardim Cocao</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- Cadastro -->
+      <div id="news-area">
+        <div class="container">
+          <div class="col-md-12">
+            <h3 class="main-title">Quer ser um Doador ?</h3>
+          </div>
+          <p>Cadastre seu endereço de e-mail abaixo e entraremos em contato</p>
+          <form action="" method="POST" name="form">
+            <input type="text" class="form-control" id="email-input" name="email" placeholder="endereço de e-mail">
+            <input onclick="Enviar()" type="submit" id="news-btn" value="Inscrever">
+          </form>
+        </div>
+      </div>
+      
+      <div id="call-area">
+        <div class="container">
+            <div class="row">
+              <p>#TODOS CONTRA O CORONAVÍRUS</p>
+              
+            </div>
+          </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <div id="contact-area">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Entre em contato conosco</h3>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-phone"></i>
+              <p><span class="contact-tile">Telefone:</span> (51) 0800-655-8812</p>
+              <p><span class="contact-tile">Horário:</span> 7h:30min - 19h:00</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-envelope"></i>
+              <p><span class="contact-tile">Email para contato:</span> doacoes@donatefound.com.br</p>
+            </div>
+            <div class="col-md-4 contact-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <p><span class="contact-tile">Endereço:</span> Rua almeida de souza - nº 6541</p>
+            </div>
+            <div class="col-md-6" id="msg-box">
+              <p>Precisa de ajuda ?</p>
+              
+            </div>
+            <div class="col-md-6" id="contact-form">
+              <form action="" name="form1" method="POST">
+                <input type="text" class="form-control" placeholder="E-mail" name="email1">
+                <input type="text" class="form-control" placeholder="Assunto (minímo 4 letras)" name="assunto">
+                <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="mensagem"></textarea>
+                <input onclick="Cadastro()" type="submit" class="main-btn">
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <p>Desenvolvido por <a href="https://pt-br.facebook.com/rafael.estefan.5" target="_blank">Rafael Estefan Cristoiu</a> &copy; 2021</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
